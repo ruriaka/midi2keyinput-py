@@ -33,8 +33,8 @@ def midi_to_keyboard():
     pygame.midi.init()
 
     try:
-        input_device_id = 1 # デバイスIDは合うものに変えてください
-        midi_input = pygame.midi.Input(input_device_id)
+        CASIO USB-MIDI = 1 # デバイスIDは合うものに変えてください
+        midi_input = pygame.midi.Input(CASIO USB-MIDI)
 
         while True:
             if midi_input.poll():
